@@ -55,11 +55,11 @@ cd FRS-FaceRecognitionSystem
 ### 2. Install dependencies:
 
 ```bash
-npm install
+npm install --save-dev @vitejs/plugin-basic-ssl@1.0.1 --legacy-peer-deps
 ```
 
 ### 3. Download face-api.js models:
-
+(Already installed just in case)
 You must include the following model folders inside `public/models/`:
 
 * `tiny_face_detector_model`
@@ -97,10 +97,10 @@ To allow webcam access:
 * Accept the browser's **"Your connection is not private"** warning
 
 ---
+## Note on changing supabase api
 
 ## 🧠 Future Improvements
 
-* ✅ Mobile camera support
 * 🔁 Face recognition history & logging
 * 🧪 Better recognition by allowing multiple samples per person
 * 🔒 Secure login/authentication + role-based face management(under developement/planning)
