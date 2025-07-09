@@ -97,7 +97,6 @@ To allow webcam access:
 * Accept the browser's **"Your connection is not private"** warning
 
 ---
-## Note on changing supabase api
 
 ## 🧠 Future Improvements
 
